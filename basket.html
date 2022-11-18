@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>Main</title>
+  <title>Basket</title>
 
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="phone-numbers">
-                  <a href="tel:+7(111)111-11-11">+7 (111) 111-11-11</a>
+                    <a href="tel:+7(111)111-11-11">+7 (111) 111-11-11</a>
                 </div>
 
                 <div class="callback-button" data-toggle="modal" data-target="#ModalCenter">
@@ -119,268 +119,325 @@
       </header>
 
 
-
-      <div class="main-slider container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators slider-pager">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="w-100 slider-item">
-                <img src="assets/img/slide-1.jpg" alt="Slide_image">
+      <div class="basket_wrapper">
+        <div class="content-headline container">
+          <div class="breadCrumbs">
+            <div class="breadCrumbs-inner">
+              <div class="crumb-page">
+                <a href="#">
+                  Главная
+                </a>
               </div>
-            </div>
-            
-            <div class="carousel-item">
-              <div class="w-100 slider-item">
-                <img src="assets/img/slide-3.jpg" alt="Slide_image">
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="w-100 slider-item">
-                <img src="assets/img/slide-4.jpg" alt="Slide_image">
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="w-100 slider-item">
-                <img src="assets/img/slide-5.jpg" alt="Slide_image">
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="w-100 slider-item">
-                <img src="assets/img/slide-6.jpg" alt="Slide_image">
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="w-100 slider-item">
-                <img src="assets/img/slide-7.jpg" alt="Slide_image">
+              <div class="crumb-page current">
+                <a href="#">
+                  Межкомнатные двери
+                </a>
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev main_slider_nav left_nav" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <h1 class="general-title">Корзина</h1>
+        </div>
 
-          </a>
-          <a class="carousel-control-next main_slider_nav right_nav" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <div class="backet-page">
+          <div class="container">
+            <div class="basket-top-line">
+              <div class="row top-row">
+                <div class="product col-sm-5 col-md-6 col-lg-5">
+                  <div class="basket-title product-line">Товар</div>
+                </div>
+                <div class="amount col-sm-3 col-md-2 col-lg-2">
+                  <div class="basket-title amount-line">
+                    Количество
+                  </div>
+                </div>
+                <div class="price col-sm-4 col-md-4 col-lg-5">
+                  <div class="basket-title price-line">
+                    Стоимость
+                  </div>
+                </div>
+              </div>
+            </div>
 
-          </a>
+            <div class="products">
+              <form action="" class="product">
+                <div class="product__label">
+                  <div class="product__in-stock">В наличии</div>
+
+                  <div class="product__remove"></div>
+                </div>
+                <div class="row product-row">
+                  <div class="col-12 col-sm-5 col-md-6 col-lg-5">
+                    <div class="product__info">
+                      <div class="image">
+                        <img src="assets/img/basket-image.png" alt="Маримам Флоренция 3 Манголия">
+                      </div>
+                      <div class="details">
+                        <a href="#" class="prod_name">
+                          <span>
+                            Маримам Флоренция 3 Манголия
+                          </span>
+                        </a>
+                        <div class="prod_options">
+                          <div class="size">Размер 550 х 1900</div>
+                          <div class="material">
+                            Полотно
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="product__amount">
+                      <div class="amount-title">Количество</div>
+                      <div class="amount_input">
+                        <div class="minus amount-btn"></div>
+                        <input type="text" value="1" name="amount" class="amount-input">
+                        <div class="plus amount-btn"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12  col-sm-4 col-md-4 col-lg-5">
+                    <div class="product__price">
+                      <div class="price-title">Стоимость</div>
+                      <div class="price-value">
+                        10 806 <span class="rouble">₽</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+              <form action="" class="product">
+                <div class="product__label">
+                  <div class="product__in-stock">В наличии</div>
+
+                  <div class="product__remove"></div>
+                </div>
+                <div class="row product-row">
+                  <div class="col-12 col-sm-5 col-md-6 col-lg-5">
+                    <div class="product__info">
+                      <div class="image">
+                        <img src="assets/img/basket-image.png" alt="Маримам Флоренция 3 Манголия">
+                      </div>
+                      <div class="details">
+                        <a href="#" class="prod_name">
+                          <span>
+                            Маримам Флоренция 3 Манголия
+                          </span>
+                        </a>
+                        <div class="prod_options">
+                          <div class="size">Размер 550 х 1900</div>
+                          <div class="material">
+                            Полотно
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="product__amount">
+                      <div class="amount-title">Количество</div>
+                      <div class="amount_input">
+                        <div class="minus amount-btn"></div>
+                        <input type="text" value="1" name="amount" class="amount-input">
+                        <div class="plus amount-btn"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12  col-sm-4 col-md-4 col-lg-5">
+                    <div class="product__price">
+                      <div class="price-title">Стоимость</div>
+                      <div class="price-value">
+                        10 806 <span class="rouble">₽</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+              <form action="" class="product">
+                <div class="product__label">
+                  <div class="product__in-stock">В наличии</div>
+
+                  <div class="product__remove"></div>
+                </div>
+                <div class="row product-row">
+                  <div class="col-12 col-sm-5 col-md-6 col-lg-5">
+                    <div class="product__info">
+                      <div class="image">
+                        <img src="assets/img/basket-image.png" alt="Маримам Флоренция 3 Манголия">
+                      </div>
+                      <div class="details">
+                        <a href="#" class="prod_name">
+                          <span>
+                            Маримам Флоренция 3 Манголия
+                          </span>
+                        </a>
+                        <div class="prod_options">
+                          <div class="size">Размер 550 х 1900</div>
+                          <div class="material">
+                            Полотно
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="product__amount">
+                      <div class="amount-title">Количество</div>
+                      <div class="amount_input">
+                        <div class="minus amount-btn"></div>
+                        <input type="text" value="1" name="amount" class="amount-input">
+                        <div class="plus amount-btn"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12  col-sm-4 col-md-4 col-lg-5">
+                    <div class="product__price">
+                      <div class="price-title">Стоимость</div>
+                      <div class="price-value">
+                        10 806 <span class="rouble">₽</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="container basket-form">
+            <div class="row">
+              <div class="col-12 col-xl-4">
+                <div class="basket-form__acount">
+                  <div class="acount-title">
+                    Расчёт
+                  </div>
+                  <div class="acount-list">
+                    <div class="basket-amount basket-item">
+                      <div class="basket-title">Товаров:</div>
+                      <div class="basket-value">3</div>
+                    </div>
+                    <div class="basket-sales basket-item">
+                      <div class="basket-title">
+                        Скидка с купона:
+                      </div>
+                      <div class="basket-value">
+                        3 200 <span class="rouble">₽</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="basket-total-price">
+                    <div class="total-price-title">Сумма:</div>
+                    <div class="total-price">
+                      10 806 <span class="rouble">₽</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-xl-8">
+                <div class="basket-form__order">
+                  <div class="order-form-title">Оформление заказа</div>
+                  <form action="" class="basket-form__order-form">
+                    <div class="user-info">
+                      <div class="form-field field-text">
+                        <div class="field-title">Ваше имя <span class="required-mark">*</span></div>
+                        <input type="text" value="" name="user_name">
+                      </div>
+                      <div class="form-field field-text">
+                        <div class="field-title">Телефон <span class="required-mark">*</span></div>
+                        <input type="text" value="" name="user_phone">
+                      </div>
+                      <div class="form-field field-textarea">
+                        <div class="field-title">Комментарий</div>
+                        <textarea name="user_comment"></textarea>
+                      </div>
+                    </div>
+                    <div class="order-info">
+                      <div class="form-field field-radio">
+                        <div class="field-headline">Способ оплаты</div>
+                        <label for="cash" class="field-label">
+                          <input type="radio" name="payment" id="cash" value="Наличными при получении">
+                          <span class="radio_button"></span>
+                          <div class="field-text">Наличными при получении</div>
+                        </label>
+
+                        <label for="card" class="field-label">
+                          <input type="radio" name="payment" id="card" value="Картой при получении">
+                          <span class="radio_button"></span>
+                          <div class="field-text">Картой при получении</div>
+                        </label>
+
+                        <label for="cashless" class="field-label">
+                          <input type="radio" name="payment" id="cashless" value="Безналичная оплата по счету">
+                          <span class="radio_button"></span>
+                          <div class="field-text">Безналичная оплата по счету</div>
+                        </label>
+                      </div>
+
+                      <div class="form-field field-radio">
+                        <div class="field-headline">Доставка</div>
+                        <label for="pickup" class="field-label">
+                          <input type="radio" name="delivery" id="pickup" value="Заберу сам со склада">
+                          <span class="radio_button"></span>
+                          <div class="field-text">Заберу сам со склада</div>
+                        </label>
+
+                        <label for="capital" class="field-label">
+                          <input type="radio" name="delivery" id="capital" value="Нужна доставка по Москве или МО">
+                          <span class="radio_button"></span>
+                          <div class="field-text">Нужна доставка по Москве или МО</div>
+                        </label>
+
+                        <label for="regions" class="field-label">
+                          <input type="radio" name="delivery" id="regions" value="Нужна доставка в регионы по России">
+                          <span class="radio_button"></span>
+                          <div class="field-text">Нужна доставка в регионы по России</div>
+                        </label>
+                      </div>
+
+                      <div class="form-field field-checkbox">
+                        <label for="setup" class="field-label">
+                          <input type="checkbox" name="setup" id="setup" value="Нужна установка">
+                          <span class="checkbox"></span>
+                          <span class="field-text">Нужна установка</span>
+                        </label>
+                        <div class="field-notice">
+                          Стоимость установки одной двери — от 2 200 Р. <br>
+                          Точную сумму вам сообщит мастер при установке.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="submit_wrapper">
+                      <div class="form-field field-submit">
+                        <button type="submit">Оформить заказ</button>
+                      </div>
+                      <div class="form-field field-checkbox">
+                        <label for="agreement" class="field-label">
+                          <input type="checkbox" name="agreement" id="agreement" value="Согласен">
+                          <span class="checkbox"></span>
+                          <span class="field-text">
+                            Соглашаюсь с <a href="#">Политикой обработки персональных данных</a>
+                          </span>
+                        </label>
+                        <div class="field-notice">
+                          Заказ будет отправлен менеджеру, после чего он свяжется с вами.<br>
+                          Оформление заказа через корзину не является договором <a href="#">оферты</a>.
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <main class="site-main">
-        <div class="container main-folders">
-          <div class="folders-title general-title">Каталог дверей</div>
-          <div class="row">
-            <div class="col-12 col-sm-6 col-md-4 folder_wrapper">
-              <div class="folder-item">
-                <div class="folder_name">Арки и порталы</div>
-                <div class="products-in">15 товаров</div>
-                <div class="folder-image">
-                  <img src="assets/img/door-1.png" alt="Арки и порталы">
-                </div>
-                <a href="#" class="folder_link"></a>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 folder_wrapper">
-              <div class="folder-item">
-                <div class="folder_name">Межкомнатные двери</div>
-                <div class="products-in">15 товаров</div>
-                <div class="folder-image">
-                  <img src="assets/img/door-2.jpg" alt="Межкомнатные двери">
-                </div>
-                <a href="#" class="folder_link"></a>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 folder_wrapper">
-              <div class="folder-item">
-                <div class="folder_name">Входные двери</div>
-                <div class="products-in">15 товаров</div>
-                <div class="folder-image">
-                  <img src="assets/img/door-3.jpg" alt="Входные двери">
-                </div>
-                <a href="#" class="folder_link"></a>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 folder_wrapper">
-              <div class="folder-item">
-                <div class="folder_name">ПВХ (гармошка)</div>
-                <div class="products-in">15 товаров</div>
-                <div class="folder-image">
-                  <img src="assets/img/door-4.jpg" alt="ПВХ (гармошка)">
-                </div>
-                <a href="#" class="folder_link"></a>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 folder_wrapper">
-              <div class="folder-item">
-                <div class="folder_name">Стекянные двери</div>
-                <div class="products-in">15 товаров</div>
-                <div class="folder-image">
-                  <img src="assets/img/door-5.jpg" alt="Стекянные двери">
-                </div>
-                <a href="#" class="folder_link"></a>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 folder_wrapper">
-              <div class="folder-item">
-                <div class="folder_name">Для ванны и туалета</div>
-                <div class="products-in">15 товаров</div>
-                <div class="folder-image">
-                  <img src="assets/img/door-6.jpg" alt="Для ванны и туалета">
-                </div>
-                <a href="#" class="folder_link"></a>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 folder_wrapper">
-              <div class="folder-item">
-                <div class="folder_name">Раздвижные двери</div>
-                <div class="products-in">15 товаров</div>
-                <div class="folder-image">
-                  <img src="assets/img/door-7.png" alt="Раздвижные двери">
-                </div>
-                <a href="#" class="folder_link"></a>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 folder_wrapper">
-              <div class="folder-item">
-                <div class="folder_name">Двойные двери</div>
-                <div class="products-in">15 товаров</div>
-                <div class="folder-image">
-                  <img src="assets/img/door-8.jpg" alt="Двойные двери">
-                </div>
-                <a href="#" class="folder_link"></a>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 folder_wrapper">
-              <div class="folder-item">
-                <div class="folder_name">Складные двери</div>
-                <div class="products-in">15 товаров</div>
-                <div class="folder-image">
-                  <img src="assets/img/door-9.jpg" alt="Складные двери">
-                </div>
-                <a href="#" class="folder_link"></a>
-              </div>
-            </div>
-          </div>
-          <div class="show-more foldersShow-js">
-            <span>Все категории</span>
-          </div>
-        </div>
-        <div class="features-wrapper">
-          <div class="container features">
-            <div class="row">
-              <div class="col-6 col-md-4 col-sm-4 col-lg-2 feature-outer">
-                <div class="features-item">
-                  <div class="features-image">
-                    <img src="assets/img/features-1.svg" alt="Цена от производителя">
-                  </div>
-                  <div class="features-title">Цена от производителя</div>
-                  <div class="features-text">Мы являемся официальными дилерами производителей</div>
-                </div>
-              </div>
-              <div class="col-6 col-md-4 col-sm-4 col-lg-2 feature-outer">
-                <div class="features-item">
-                  <div class="features-image">
-                    <img src="assets/img/features-2.svg" alt="Огромный выбор">
-                  </div>
-                  <div class="features-title">Огромный выбор</div>
-                  <div class="features-text">В наших магазинах двери самых популярных производителей</div>
-                </div>
-              </div>
-              <div class="col-6 col-md-4 col-sm-4 col-lg-2 feature-outer">
-                <div class="features-item">
-                  <div class="features-image">
-                    <img src="assets/img/features-3.svg" alt="Комплексный подход">
-                  </div>
-                  <div class="features-title">Комплексный подход</div>
-                  <div class="features-text">Не только продадим вам двери, но и доставим, и установим, и дадим гарантию</div>
-                </div>
-              </div>
-              <div class="col-6 col-md-4 col-sm-4 col-lg-2 feature-outer">
-                <div class="features-item">
-                  <div class="features-image">
-                    <img src="assets/img/features-4.svg" alt="Бесплатный замер">
-                  </div>
-                  <div class="features-title">Бесплатный замер</div>
-                  <div class="features-text">Профессиональный замерщик сделает необходимые замеры и поможет выбрать нужную дверь</div>
-                </div>
-              </div>
-              <div class="col-6 col-md-4 col-sm-4 col-lg-2 feature-outer">
-                <div class="features-item">
-                  <div class="features-image">
-                    <img src="assets/img/features-5.svg" alt="Бесплатная доставка">
-                  </div>
-                  <div class="features-title">Бесплатная доставка</div>
-                  <div class="features-text">По Москве в пределах МКАД при заказе от 4х дверей</div>
-                </div>
-              </div>
-              <div class="col-6 col-md-4 col-sm-4 col-lg-2 feature-outer">
-                <div class="features-item">
-                  <div class="features-image">
-                    <img src="assets/img/features-6.svg" alt="Гарантия 1 год">
-                  </div>
-                  <div class="features-title">Гарантия 1 год</div>
-                  <div class="features-text">Мы даем гарантию 1 год на установку дверей</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container main-content">
-          <div class="content-inner">
-            <div class="row">
-              <div class="col-12 col-lg-8 content-outer">
-                <div class="main-text">
-                  <h1 class="general-title">Интернет-магазин дверей</h1>
-                  <h2>Изготовление дверей с доставкой</h2>
-                  <p>
-                    Розница фабрики представлена интернет-магазином и фирменными салонами. В городах присутствия доставка возможна на следующий день.
-                  </p>
-                  <p>
-                    В ассортименте интернет-магазина более 370 моделей входных и межкомнатных дверей по низким ценам. Ассортимент включает как продукцию фабрики и других производителей, сотрудничество с которыми осуществляется на основании эксклюзивных договоров. Каталог дверей регулярно обновляется новыми моделями.
-                  </p>
-                  <p>
-                    Вы также можете приобрести у нас фурнитуру и плинтус, заказать услуги по замеру, доставке и профессиональной установке.
-                  </p>
-                </div>
-              </div>
-              <div class="col-12 col-lg-4 content-outer">
-                <div class="news-wrapper">
-                  <div class="news-title general-title">Новости</div>
-                  <div class="news-list">
-                    <div class="news-item">
-                      <div class="date">10 июля 2020 г.</div>
-                      <a href="#" class="news-anonce">
-                        Ура у нас новый сайт, тестовое наполнение блока новостей, редактируемый текст
-                      </a>
-                    </div>
-
-                    <div class="news-item">
-                      <div class="date">10 июля 2020 г.</div>
-                      <a href="#" class="news-anonce">
-                        Ура у нас новый сайт, тестовое наполнение блока новостей, редактируемый текст
-                      </a>
-                    </div>
-
-                    <div class="news-item">
-                      <div class="date">10 июля 2020 г.</div>
-                      <a href="#" class="news-anonce">
-                        Ура у нас новый сайт, тестовое наполнение блока новостей, редактируемый текст
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
 
     </div>
     <!--site-inner-->
@@ -416,12 +473,12 @@
                 </div>
 
                 <div class="phone-numbers">
-                  <a href="tel:+7(111)111-11-11">+7 (111) 111-11-11</a>
+                    <a href="tel:+7(111)111-11-11">+7 (111) 111-11-11</a>
                 </div>
 
               </div>
               <div class="foot-adress">
-                Адрес офиса 
+                Адрес офиса
               </div>
             </div>
             <div class="footer__right-contacts-bottom">
@@ -465,7 +522,7 @@
       <div class="footer__bottom">
         <div class="footer__bottom-inner">
           <div class="copyright">
-            © Копирайт
+            © 2012-2020 Интернет-магазин дверей “BRAVO”
           </div>
           <div class="payment_systems">
             <div class="payments-title">
@@ -540,6 +597,7 @@
   <script src="js/plugins.js"></script>
   <script src="js/app.js"></script>
   
+
 </body>
 
 </html>
